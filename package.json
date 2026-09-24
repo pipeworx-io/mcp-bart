@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-bart",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "BART MCP — San Francisco Bay Area Rapid Transit real-time data (api.bart.gov)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-bart": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "bart"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-bart"
+    "url": "git+https://github.com/pipeworx-io/mcp-bart.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-a65acd8e090012f8eb85db0314cb8bcb2afa3519944c055cb5239c77640bc52f",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
