@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-bart",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "BART MCP — San Francisco Bay Area Rapid Transit real-time data (api.bart.gov)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "bart",
     "gatewaySlug": "bart",
-    "sourceHash": "v1-6b12f36ba71baa2a23c790612af9f51245e233a71aaf6a9187e08bf7da4c5f0d",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-1d752455423b2020ec5b7bd33d342846cae0cce261363d3460b43aee0b796e39",
+    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
   }
 }
